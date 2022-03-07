@@ -3,10 +3,10 @@ public class EmployeeDAO
 {
     public Connection getConnection()
     {
-         return DriverManager.getConnection();
+        
     }
 
-    public ArrayList<Employee> getEmployeesDetails()
+    public List<Employee> getAllEmployees()
     {
     }
 
@@ -14,7 +14,8 @@ public class EmployeeDAO
     {
     }
     
-    public boolean deleteEmployee(int employeeId)
+    public boolean deleteEmployee(int empId)
     {
+          return 0;
     } 
 } 
