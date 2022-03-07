@@ -6,11 +6,11 @@ public class EmployeeDAO
          return DriverManager.getConnection();
     }
 
-    public List<Employee> getAllEmployees()
+    public ArrayList<Employee> getEmployeesDetails()
     {
     }
 
-    public boolean insertEmployee()
+    public boolean addEmployeeDetails()
     {
     }
     
